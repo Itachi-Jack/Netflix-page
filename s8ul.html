@@ -1,0 +1,856 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        #first {
+            border-bottom: 8px solid #222;
+        }
+
+        body {
+
+            background-color: black;
+            background-repeat: no-repeat;
+
+
+
+
+
+        }
+
+        .net {
+            display: block;
+            font-size: 4rem;
+            color: white;
+            position: relative;
+            left: 600px;
+            top: 228px;
+
+
+
+        }
+
+        .n {
+            font-size: 25px;
+            color: white;
+            display: block;
+            position: relative;
+            left: 690px;
+            top: 121px;
+
+
+        }
+
+        .show {
+            display: block;
+            color: white;
+            font-size: 4rem;
+            position: relative;
+            top: 164px;
+            left: 650px;
+
+
+
+        }
+
+        header::before {
+            content: " ";
+            background: url('https://assets.nflxext.com/ffe/siteui/vlv3/28b69a57-cadf-43d9-8a95-e5f2e11199de/a678bf27-dbb6-42e7-aad1-d4dbb1c31d7b/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center/cover;
+            position: absolute;
+            width: 1950px;
+            height: 777px;
+            background-color: black;
+            opacity: 0.5;
+        }
+
+        h3 {
+            display: block;
+            color: white;
+            position: relative;
+            top: 100px;
+            left: 600px;
+        }
+
+        #input {
+            display: block;
+            position: relative;
+            top: 105px;
+            left: 550px;
+            outline: none;
+            border: none;
+
+
+        }
+
+
+        #get {
+            display: inline;
+            background-color: red;
+
+
+
+            position: relative;
+            top: 19px;
+            left: 1050px;
+        }
+
+        .get {
+            border: 19px solid red;
+
+            background-color: red;
+            color: white;
+            margin-top: -12px;
+            margin-left: -7px;
+            margin-right: -8px;
+            margin-bottom: -12px;
+            font-size: 25px;
+            cursor: pointer;
+            text-decoration: none;
+
+        }
+
+        #language {
+            display: inline;
+
+            border: 2px solid white;
+            position: relative;
+            top: -498px;
+            left: 1600px;
+            border-radius: 2px;
+
+        }
+
+        #log {
+
+            position: relative;
+            top: -608px;
+            height: 207px;
+            left: 20px;
+
+        }
+
+        .sign {
+            display: inline-table;
+            color: white;
+            position: relative;
+            top: -728px;
+            left: 1690px;
+            border: 2px solid red;
+            background-color: red;
+            padding-top: 1px;
+            padding-left: 14px;
+            padding-right: 13px;
+            padding-bottom: 4px;
+            border-radius: 2px;
+
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /*second page css*/
+        #secpage {
+            border: 0;
+            height: auto;
+            max-width: 100%;
+
+            position: relative;
+            left: 950px;
+
+        }
+
+        .head {
+
+            color: white;
+            position: relative;
+            bottom: 380px;
+            left: 384px;
+            font-size: 50px;
+            line-height: 1.1;
+            margin-bottom: 0.8rem;
+
+        }
+
+        #play {
+
+            color: white;
+            position: relative;
+            bottom: 380px;
+            left: 380px;
+            font-size: 27px;
+            line-height: 1.1;
+            margin-bottom: 0.8rem;
+
+
+        }
+
+        #itachi {
+
+            height: 250px;
+            width: 458px;
+            position: relative;
+            bottom: 601px;
+            left: 1039px;
+            z-index: -1;
+        }
+
+        .second {
+            border: 8 px solid #222;
+
+
+
+        }
+
+
+
+        #thirdimg {
+            position: relative;
+            bottom: 170px;
+            left: 184px;
+        
+
+        }
+        .mis{
+            position: relative;
+            left: -12px;
+            padding-top: 3.5px;
+        }
+
+        .things {
+
+            position: relative;
+            bottom: 350px;
+            left: 335px;
+
+
+
+        }
+
+        .strange {
+            color: white;
+            position: relative;
+            bottom: -23px;
+            left: 85px;
+            font-size: 20px;
+
+        }
+
+        #dwd {
+
+            color: #0071eb;
+            position: relative;
+            bottom: -11px;
+            left: 84px;
+            font-size: 16px;
+
+        }
+
+        .d {
+            color: white;
+            position: relative;
+            bottom: 690px;
+            left: 861px;
+            font-size: 45px;
+
+        }
+
+        .shows {
+            color: white;
+            position: relative;
+            bottom: 700px;
+            left: 861px;
+            font-size: 25px;
+
+        }
+
+        #thirdbox {
+
+
+            align-items: center;
+            background: #000;
+            border: 2px solid hsla(0, 0%, 100%, .25);
+            border-radius: 0.75em;
+            bottom: 8%;
+            box-shadow: 0 0 2em 0 #000;
+            display: flex;
+            left: 45%;
+
+            min-width: 15em;
+            padding: 0.25em 1.65em;
+            position: absolute;
+            transform: translateX(-240%);
+            width: 16%;
+            bottom: -45px;
+            right: 100px;
+            
+            
+        }
+
+        .fourthimg {
+            position: relative;
+            bottom: 200px;
+            left: 900px;
+
+        }
+
+        .fourthtext {
+            position: relative;
+            bottom: 381px;
+            left: -582px;
+            color: white;
+            font-size: 45px;
+
+        }
+
+        .long {
+            color: white;
+            position: relative;
+            bottom: 397px;
+            right: 580px;
+            font-size: 29px;
+        }
+
+        #naruto {
+            position: relative;
+            bottom: 670px;
+            left: 123px;
+            z-index: -4;
+        }
+
+        .fif {
+            position: relative;
+            bottom: 330px;
+            left: 400px;
+        }
+
+        .kids {
+            color: white;
+            position: relative;
+            bottom: 315px;
+            left: 510px;
+            font-size: 45px;
+
+        }
+
+        .kidsc {
+            color: white;
+            position: relative;
+            bottom: 8px;
+            left: 3px;
+            font-size: 21px;
+
+        }
+
+        .six {
+            display: inline-flex;
+            justify-content: center;
+            color: white;
+            font-size: 50px;
+            position: relative;
+            bottom: 40px;
+            left: 120px;
+
+        }
+
+        #faq {
+            color: white;
+
+
+            align-items: center;
+            font-size: 25px;
+
+            font-weight: 400;
+        }
+
+        .i {
+            background: #303030;
+            margin-bottom: 10px;
+
+            display: flex;
+            font-weight: 400;
+            border:1px solid #222;
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            margin-right: 1100px;
+            margin-left: 61px;
+        }
+
+        #cost {
+            display: flex;
+            font-weight: 400;
+            border: 1px solid #222;
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            background: #303030;
+            margin-right: 1100px;
+            margin-left: 61px;
+          
+        }
+
+        #where {
+            display: flex;
+            font-weight: 400;
+            border: 1px solid #222;
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            background: #303030;
+            margin-right: 1100px;
+            margin-left: 61px;
+
+
+        }
+
+        .HOW {
+            display: flex;
+            font-weight: 400;
+            border: 1px solid #222;
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            background: #303030;
+            margin-right: 1100px;
+            margin-left: 61px;
+
+        }
+
+        .what {
+            display: flex;
+            font-weight: 400;
+            border: 1px solid #222;
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            background: #303030;
+            margin-right: 1100px;
+            margin-left: 61px;
+
+        }
+
+        .is {
+            display: flex;
+            font-weight: 400;
+            border: 1px solid #222;
+            background: #303030;
+            
+            padding: 0.8em 2.2em 0.8em 1.2em;
+            margin-right: 1100px;
+            margin-left: 61px;
+
+        }
+
+        .X {
+            display: inline;
+
+
+
+            color: white;
+            align-content: right;
+
+
+
+        }
+
+        .fx {
+            cursor: pointer;
+            position: relative;
+            bottom: 548px;
+            left: 725px;
+        }
+
+        .sx {
+            position: relative;
+            bottom: 505px;
+            left: 725px;
+            cursor: pointer;
+
+        }
+
+        .tx {
+            position: relative;
+            bottom: 465px;
+            left: 725px;
+            cursor: pointer;
+
+        }
+
+        .fox {
+            position: relative;
+            bottom: 425px;
+            left: 725px;
+            cursor: pointer;
+
+
+        }
+
+        .fi {
+            position: relative;
+            bottom: 380px;
+            left: 725px;
+            cursor: pointer;
+
+        }
+
+        .s {
+            position: relative;
+            bottom: 340px;
+            left: 725px;
+            cursor: pointer;
+
+
+
+
+        }
+
+        .ready {
+            color: white;
+            position: relative;
+            top: -210px;
+            left: 540px;
+            font-size: 20px;
+        }
+
+        #E {
+            position: relative;
+            top: -208px;
+            left: 510px;
+            z-index: -1;
+
+        }
+
+        #g2 {
+            position: relative;
+            bottom: 204px;
+            left: 495px;
+            right: 20px;
+            cursor: pointer;
+            border: 1px solid red;
+        }
+
+        #E:hover {
+            align-items: top;
+            border-top: none;
+            border-left: none;
+
+            border-bottom-color: #ffa00a;
+        }
+
+        #E:active {
+            align-items: top;
+            border-bottom-color: #ffa00a;
+            border-top: none;
+            border-left: none;
+
+
+        }
+
+        .red {
+            border-bottom: 8px solid #222;
+            margin-left: -400px;
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-size: 16px;
+            position: absolute;
+            bottom: 319px;
+            left: 121px;
+            color: #8c8c8c;
+
+        }
+
+        #anim {
+            background: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif') 50% no-repeat;
+            background-size: 100%;
+            content: "";
+            display: block;
+            flex-grow: 0;
+            flex-shrink: 0;
+            height: 3em;
+            outline: 2px solid #000;
+            outline-offset: -2px;
+            width: 3em;
+            position: relative;
+            left: 280px;
+            top: 92px;
+
+
+        }
+         .q{
+            color: #8c8c8c;
+            font-size: 18px;
+            position: sticky;
+            top: 100px;
+            left: 527px;
+            margin-top:10px ;
+
+        }
+      
+        #lang{
+            padding-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #222;
+            color: #8c8c8c;
+            position: relative;
+            top: 346px;
+            right: 708px;
+            border: 2px solid white;
+        }
+        .ni{
+            color: #8c8c8c;
+            font-size: 12px;
+            position: relative;
+            top: 415px;
+            left: -633px;
+            
+
+        }
+        
+       
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div id="imp">
+        <div id="first">
+
+            <header>
+                <p class="net">
+                    Unlimited movies,TV
+                <P class="show">
+                    shows and more.
+                </P>
+
+
+                </p>
+
+                <p class="n">
+                    Watch Anywhere.Cancel Anytime.
+                </p>
+
+            </header>
+            <span>
+                <h3>
+                    Ready to watch?Enter your email to create or restart your membership.
+                </h3>
+                <p id="input"><input type="text" name="email" id="email" placeholder="Email address"
+                        style="width: 500px; height: 70px;"> </p>
+
+                <div id="get">
+                    <button type="submit" value="Get started" style="width:200px; height:70px">
+                        <p class="get"> <a href="https://www.google.com">Get Started</a></p>
+                </div>
+                <div class="lang">
+                    <label for="language"></label>
+                    <select name="language" id="language">
+                        <option value="English" selected>English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+                <div class="logo">
+                    <img src="https://logospng.org/download/netflix/logo-netflix-4096.png" alt="" srcset="" id="log"
+                        width="258px">
+
+                </div>
+                <div class="sign">
+                    <p id="sig"> <a href="https://www.google.com"> Sign in </a></p>
+
+                </div>
+
+
+
+            </span>
+        </div>
+        <div class="second">
+
+
+
+            <div class="sp">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt=""
+                    id="secpage">
+                <h2 class="head">
+                    Enjoy on you Tv.
+                </h2>
+                <p id="play">
+                    Watch on smart Tvs,PlayStation,Xbox,<br>
+                    Chromecast,Apple Tv,Blu-ray players and <br>
+                    more.
+
+                </p>
+                <img src="https://images4.alphacoders.com/686/686215.jpg" alt="" id="itachi">
+            </div>
+        </div>
+        <div id="third">
+            <div id="thirdimg">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                    alt="">
+            </div>
+            <div class="things">
+                <div id="thirdbox">
+
+
+
+
+                    <div class="mis"><img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                        alt="" style="height:98px; ">
+                    </div>
+                </div>
+                <div id="anim"></div>
+
+
+
+                <p class="strange">
+                    Stranger Things
+                </p>
+                <p id="dwd">Downloading...</p>
+            </div>
+            <div class="jpg">
+                <h1 class="d">Download your shows<br> to watch offline.</h1>
+                <p class="shows">Save your favourites easily and always have <br> something to watch</p>
+            </div>
+
+        </div>
+        <!-- fourth page -->
+        <div id="fourth">
+            <div class="fourthimg">
+                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                    alt="">
+                <h2 class="fourthtext">
+                    Watch everywhere.
+                </h2>
+                <p class="long">
+                    Stream unlimited movies and Tv shows on <br>
+                    your phone,tablet,laptop,and Tv
+                </p>
+                <div id="naruto">
+                    <img src="https://i0.wp.com/wallpapercave.com/wp/wc1683980.jpg" alt=""
+                        style="height:220px ; width: 396px;">
+                </div>
+            </div>
+            <!-- Fifth -->
+            <div id="fifth">
+                <div class="fif">
+                    <img src="https://occ-0-5261-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420"
+                        alt="" style="height:315px ;">
+                    <div>
+                        <h2 class="kids">
+                            Create profiles for <br> children.
+                            <p class="kidsc">Send children on adventures with their <br>favourite characters in a space
+                                made just for <br> them—free with your membership.</p>
+                        </h2>
+                    </div>
+                    <div class="sixth">
+                        <h1 class="six">
+                            Frequently Asked Questions
+                        </h1>
+                        <div id="faq">
+                            <div class="i"> What is Netflix? </div>
+                            <p id="cost"> How much does Netflix cost?</p>
+                            <p id="where">Where can I watch?</p>
+                            <P class="HOW">How can I cancel?</P>
+                            <p class="what">What can I watch on Netflix?</p>
+                            <p class="is">Is Netflix good for kids?</p>
+                            <p class="x">
+                            <p class="fx"> +<br></p>
+                            <p class="sx"> + <br></p>
+                            <p class="tx"> + <br></p>
+                            <p class="fox"> + <br></p>
+                            <p class="fi">+ <br></p>
+                            <p class="s">+ <br></p>
+
+
+                            </p>
+                            <div class="red">
+                                <h3 class="ready">
+                                    Ready to watch?Enter your email to create or restart your membership.
+                                </h3>
+                                <p class="e2">
+                                    <label for="E">Email address</label>
+                                    <input type="text" name="Emailaddress" id="E" style="width: 500px; height: 70px;">
+
+                                    <button type="submit" id="g2"
+                                        style="height:70px ; width:200px;font-size: 25px;background-color: red; color: white;">Get
+                                        Started</button>
+
+                                </p>
+                                  <div id="end">
+                                     
+                                     
+
+                                   
+                                    </div> 
+                                    <select name="language" id="lang">
+                                        <option value="English" selected>English</option>
+                                        <option value="Hindi">Hindi</option>
+                                    </select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
